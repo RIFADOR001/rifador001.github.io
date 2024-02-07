@@ -1,0 +1,28 @@
+body {
+  font: "Raleway", sans-serif;
+  color: #00000080;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  background: linear-gradient(to right, red, #ff0);
+  top: 15%;
+}
+
+h1 {
+  color: #00000080;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  width: 100%;
+  font: 600 3.5em Raleway, sans-serif;
+}
+
+h3 {
+  color: #00000080;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: .01em;
+  font: 900 1em Raleway, sans-serif;
+}
+
+/*# sourceMappingURL=index.f8873a06.css.map */
