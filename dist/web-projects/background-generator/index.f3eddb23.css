@@ -1,0 +1,48 @@
+body {
+  font: "Raleway", sans-serif;
+  color: #00000080;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  background: linear-gradient(to right, red, #ff0);
+  top: 15%;
+}
+
+h1 {
+  color: #00000080;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  width: 100%;
+  font: 600 3.5em Raleway, sans-serif;
+}
+
+h3 {
+  color: #00000080;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: .01em;
+  font: 900 1em Raleway, sans-serif;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #008cba;
+  border: 2px solid #04aa6d;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px #0003, 0 6px 20px #00000030;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #04aa6d;
+  box-shadow: 0 12px 16px #0000003d, 0 17px 50px #00000030;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;
+}
+
+/*# sourceMappingURL=index.f3eddb23.css.map */
