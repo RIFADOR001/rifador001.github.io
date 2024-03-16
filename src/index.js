@@ -7,15 +7,18 @@ initTiltEffect();
 
 
 // var hamb = document.getElementById("myLinks")
-var hamb = document.getElementById("hamb")
+var hamb = document.getElementById("hamb");
+var nav = document.getElementById("nav");
 console.log(hamb);
 hamb.addEventListener("click", function() {
 	// console.log("click");
 	var x = document.getElementById("myLinks");
 	if (x.style.display === "block") {
-    x.style.display = "none";
+		nav.classList.add("solid");
+    	x.style.display = "none";
   	} else {
-    x.style.display = "block";
+  		nav.classList.remove("solid");
+    	x.style.display = "block";
   }
 })
 

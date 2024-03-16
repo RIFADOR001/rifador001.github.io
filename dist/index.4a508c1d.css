@@ -12566,7 +12566,7 @@ body {
 
 .topnav {
   z-index: 2;
-  background-color: #333;
+  background-color: #09a6a3;
   top: 0;
   overflow: hidden;
   position: sticky !important;
@@ -12574,6 +12574,14 @@ body {
 
 .topnav #myLinks {
   display: none;
+}
+
+.topnav.solid {
+  background-color: #09a6a31a;
+}
+
+.hamb {
+  background-color: #09a6a3;
 }
 
 .topnav a {

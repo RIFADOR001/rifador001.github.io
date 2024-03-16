@@ -14,6 +14,8 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  background-color: #09a6a3;
+  background-color: rgba(9,166,163,1);
   position: sticky !important;
   top: 0;
   z-index: 2;
@@ -21,6 +23,14 @@ body {
 
 .topnav #myLinks {
   display: none;
+}
+
+.topnav.solid {
+  background-color: rgba(9,166,163,0.1);
+}
+
+.hamb {
+  background-color: rgba(9,166,163,1);
 }
 
 .topnav a {
