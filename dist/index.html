@@ -16,6 +16,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="/favicon.2a2e97fc.png">
+    <!-- <link rel="shortcut icon" type="image/png" href="assets/mantaray.png" /> -->
 
     <!-- Todo: put here your site title -->
     <title>Alejandro Méndez Rojas | Developer</title>
@@ -35,7 +36,20 @@
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
-
+    <div class="topnav sticky">
+      <a href="#home" class="active">Menu</a>
+      <div id="myLinks">
+        <a href="#about">About me</a>
+        <a href="#face">Face recognition</a>
+        <a href="#web">More web projects</a>
+        <a href="#python">Python projects</a>
+        <a href="#moreaboutme">More about me</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="icon" id="hamb">
+      <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
@@ -91,7 +105,7 @@
 
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div id="face" class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Face recognition</h3>
                 <div>
@@ -125,7 +139,7 @@
           <!-- /END Project -->
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div id="web" class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">More web based projects</h3>
                 <div>
@@ -151,7 +165,7 @@
           <!-- /END Project -->
              <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div id="python" class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Some Python based projects</h3>
                 <div>
@@ -197,7 +211,7 @@
       </div>
     </section> -->
     <!-- /END Contact Section -->
-    <div class="container">
+    <div id="moreaboutme" class="container">
         <a rel="noreferrer" target="_self" class="cta-btn" href="/more-about-me/more-about-me.html">
           <h2 class="section-title">More about me</h2>
         </a>
@@ -206,7 +220,7 @@
       </div>
     
   <!-- **** Contact Section **** -->
-    <section id="contact">
+    <section id="contact1">
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
@@ -218,7 +232,7 @@
     <!-- /END Contact Section -->
 
     <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
+    <footer id="contact" class="footer navbar-static-bottom">
       <div class="container">
         <a rel="noreferrer" href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>

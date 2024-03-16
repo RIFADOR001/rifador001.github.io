@@ -22,7 +22,18 @@
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
-
+    <div class="topnav sticky">
+        <a href="#home" class="active">Menu</a>
+        <div id="myLinks">
+        <a href="#about">Why coding?</a>
+        <a href="#learning">My learning experience</a>
+        <a href="#future">Future goals</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="icon" id="hamb">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
@@ -72,7 +83,7 @@
 
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div id="learning" class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">About my learning experience</h3>
                 <div>
@@ -122,7 +133,7 @@
 
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div id="future" class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Future goals</h3>
                 <div>

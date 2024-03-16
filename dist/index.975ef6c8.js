@@ -540,6 +540,23 @@ var _tiltAnimationDefault = parcelHelpers.interopDefault(_tiltAnimation);
 var _scrollRevealConfig = require("./data/scrollRevealConfig");
 (0, _scrollRevealDefault.default)((0, _scrollRevealConfig.targetElements), (0, _scrollRevealConfig.defaultProps));
 (0, _tiltAnimationDefault.default)();
+// var hamb = document.getElementById("myLinks")
+var hamb = document.getElementById("hamb");
+console.log(hamb);
+hamb.addEventListener("click", function() {
+    // console.log("click");
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") x.style.display = "none";
+    else x.style.display = "block";
+}) // function hamburger() {
+ //   var x = document.getElementById("myLinks");
+ //   if (x.style.display === "block") {
+ //     x.style.display = "none";
+ //   } else {
+ //     x.style.display = "block";
+ //   }
+ // }
+;
 
 },{"./scripts/scrollReveal":"54rka","./scripts/tiltAnimation":"72kAb","./data/scrollRevealConfig":"5aORV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"54rka":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
