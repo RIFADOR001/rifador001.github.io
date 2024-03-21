@@ -12606,4 +12606,16 @@ body {
   background-color: #04aa6d;
 }
 
+ol li {
+  font-weight: bold;
+}
+
+ol li span, ul li {
+  font-weight: normal;
+}
+
+ol.roman {
+  list-style-type: upper-roman;
+}
+
 /*# sourceMappingURL=index.4a508c1d.css.map */
